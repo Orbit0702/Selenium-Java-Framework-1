@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Isha Home Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="Isha Homes Mini Project(failed)">
+    <classes>
+      <class name="MiniProject.BuildProjectEnquiry2">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="ProjectEnquiry"/>
+        </methods>
+      </class> <!-- MiniProject.BuildProjectEnquiry2 -->
+    </classes>
+  </test> <!-- Isha Homes Mini Project(failed) -->
+</suite> <!-- Failed suite [Isha Home Suite] -->
